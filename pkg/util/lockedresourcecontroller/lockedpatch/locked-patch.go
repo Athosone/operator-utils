@@ -3,8 +3,8 @@ package lockedpatch
 import (
 	"text/template"
 
-	"github.com/redhat-cop/operator-utils/pkg/util"
-	"github.com/redhat-cop/operator-utils/pkg/util/apis"
+	"github.com/Athosone/operator-utils/pkg/util"
+	"github.com/Athosone/operator-utils/pkg/util/apis"
 	"github.com/scylladb/go-set/strset"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"

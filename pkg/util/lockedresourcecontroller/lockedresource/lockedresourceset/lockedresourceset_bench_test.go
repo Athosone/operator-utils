@@ -8,7 +8,7 @@ package lockedresourceset
 // 	"testing"
 
 // 	"github.com/fatih/set"
-// 	"github.com/redhat-cop/operator-utils/pkg/util/lockedresourcecontroller/lockedresource"
+// 	"github.com/Athosone/operator-utils/pkg/util/lockedresourcecontroller/lockedresource"
 // )
 
 // func BenchmarkTypeSafeSetHasNonExisting(b *testing.B) {

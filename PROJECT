@@ -1,7 +1,7 @@
 domain: example.io
 layout: go.kubebuilder.io/v2
 projectName: operator-utils
-repo: github.com/redhat-cop/operator-utils
+repo: github.com/Athosone/operator-utils
 resources:
 - group: operator-utils
   kind: MyCRD

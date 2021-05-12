@@ -1,8 +1,8 @@
 # Operator Utility Library
 
-![build status](https://github.com/redhat-cop/operator-utils/workflows/push/badge.svg)
-[![GoDoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/redhat-cop/operator-utils)
-[![Go Report Card](https://goreportcard.com/badge/github.com/redhat-cop/operator-utils)](https://goreportcard.com/report/github.com/redhat-cop/operator-utils)
+![build status](https://github.com/Athosone/operator-utils/workflows/push/badge.svg)
+[![GoDoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/Athosone/operator-utils)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Athosone/operator-utils)](https://goreportcard.com/report/github.com/Athosone/operator-utils)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/redhat-cop/operator-utils)
 
 This library layers on top of the Operator SDK and with the objective of helping writing better and more consistent operators.
@@ -34,7 +34,7 @@ To get started with this library do the following:
 Change your reconciler initialization as exemplified below to add a set of utility methods to it
 
 ```go
-import "github.com/redhat-cop/operator-utils/pkg/util"
+import "github.com/Athosone/operator-utils/pkg/util"
 
 ...
 type MyReconciler struct {

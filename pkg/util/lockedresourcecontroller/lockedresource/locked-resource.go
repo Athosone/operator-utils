@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"text/template"
 
-	"github.com/redhat-cop/operator-utils/pkg/util"
-	"github.com/redhat-cop/operator-utils/pkg/util/apis"
+	"github.com/Athosone/operator-utils/pkg/util"
+	"github.com/Athosone/operator-utils/pkg/util/apis"
 	"github.com/scylladb/go-set/strset"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/client-go/rest"
