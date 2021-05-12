@@ -10,5 +10,5 @@ keywords:
   - expansion
   - monitoring
 sources:
-  - https://github.com/redhat-cop/operator-utils
+  - https://github.com/Athosone/operator-utils
 engine: gotpl

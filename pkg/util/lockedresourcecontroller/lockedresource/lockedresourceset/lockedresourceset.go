@@ -9,7 +9,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/redhat-cop/operator-utils/pkg/util/lockedresourcecontroller/lockedresource"
+	"github.com/Athosone/operator-utils/pkg/util/lockedresourcecontroller/lockedresource"
 )
 
 var (

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Athosone/operator-utils/pkg/util"
+	"github.com/Athosone/operator-utils/pkg/util/apis"
+	"github.com/Athosone/operator-utils/pkg/util/lockedresourcecontroller/lockedpatch"
 	"github.com/go-logr/logr"
-	"github.com/redhat-cop/operator-utils/pkg/util"
-	"github.com/redhat-cop/operator-utils/pkg/util/apis"
-	"github.com/redhat-cop/operator-utils/pkg/util/lockedresourcecontroller/lockedpatch"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
